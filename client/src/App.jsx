@@ -6,6 +6,7 @@ import Signin from "./pages/Signin"
 import Signup from "./pages/Signup"
 import Projects from "./pages/Projects"
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 
@@ -24,6 +25,8 @@ export default function App() {
 
 
       </Routes>
+        <Footer/>
+
     </BrowserRouter>
-  )
+  );
 }
